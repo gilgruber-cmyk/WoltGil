@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "wolt_snowflake_prod": {
+      "command": "/home/ubuntu/.mcp/start_wolt_snowflake_mcp.sh",
+      "args": []
+    }
+  }
+}
