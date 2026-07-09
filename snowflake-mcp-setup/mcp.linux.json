@@ -1,8 +1,13 @@
 {
   "mcpServers": {
     "wolt_snowflake_prod": {
-      "command": "/home/ubuntu/.mcp/start_wolt_snowflake_mcp.sh",
-      "args": []
+      "command": "/home/ubuntu/.local/bin/snowflake-labs-mcp",
+      "args": [
+        "--service-config-file",
+        "/home/ubuntu/.mcp/wolt_snowflake_prod.yaml",
+        "--connection-name",
+        "wolt_snowflake_prod"
+      ]
     }
   }
 }

@@ -44,6 +44,8 @@ chmod +x "$HOME/.mcp/test_snowflake_auth.sh"
 echo "  -> $HOME/.mcp/test_snowflake_auth.sh"
 
 cp "$SCRIPT_DIR/mcp.linux.json" "$HOME/.cursor/mcp.json"
+# Replace default ubuntu home with actual $HOME
+sed -i "s|/home/ubuntu|$HOME|g" "$HOME/.cursor/mcp.json"
 echo "  -> $HOME/.cursor/mcp.json"
 
 # 4. Test authentication

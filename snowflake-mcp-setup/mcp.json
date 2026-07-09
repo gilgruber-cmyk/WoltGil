@@ -1,13 +1,12 @@
 {
   "mcpServers": {
     "wolt_snowflake_prod": {
-      "command": "powershell.exe",
+      "command": "C:\\Users\\YOUR_USERNAME\\.local\\bin\\snowflake-labs-mcp.exe",
       "args": [
-        "-NoProfile",
-        "-ExecutionPolicy",
-        "Bypass",
-        "-File",
-        "C:\\Users\\YOUR_USERNAME\\.mcp\\start_wolt_snowflake_mcp.ps1"
+        "--service-config-file",
+        "C:\\Users\\YOUR_USERNAME\\.mcp\\wolt_snowflake_prod.yaml",
+        "--connection-name",
+        "wolt_snowflake_prod"
       ]
     }
   }

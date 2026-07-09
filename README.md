@@ -34,8 +34,8 @@ chmod +x setup.sh
 |------|------|--------|
 | `connections.toml` | `~/.snowflake/` | חיבור Snowflake |
 | `wolt_snowflake_prod.yaml` | `~/.mcp/` | הרשאות (read-only) |
-| `mcp.json` | `~/.cursor/` | רישום MCP |
-| `start_wolt_snowflake_mcp.ps1` | `~/.mcp/` | הפעלה (Windows) |
+| `mcp.json` | `~/.cursor/` | רישום MCP (ישירות ל-snowflake-labs-mcp) |
+| `start_wolt_snowflake_mcp.ps1` | `~/.mcp/` | הפעלה ידנית (אופציונלי) |
 | `test_snowflake_auth.ps1` | `~/.mcp/` | בדיקת login |
 | `snowflake-labs-mcp.exe` | `~/.local/bin/` | בינארי |
 
