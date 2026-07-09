@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "wolt_snowflake_prod": {
+      "command": "C:\\Users\\YOUR_USERNAME\\.local\\bin\\snowflake-labs-mcp.exe",
+      "args": [
+        "--service-config-file",
+        "C:\\Users\\YOUR_USERNAME\\.mcp\\wolt_snowflake_prod.yaml",
+        "--connection-name",
+        "wolt_snowflake_prod"
+      ]
+    }
+  }
+}
