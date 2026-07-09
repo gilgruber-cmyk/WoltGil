@@ -1,6 +1,6 @@
 [wolt_snowflake_prod]
 account = "doordash-wolt_market"
-user = "YOUR_EMAIL@wolt.com"
+user = "gil.gruber@wolt.com"
 authenticator = "externalbrowser"
 role = "WOLT_MARKET"
 warehouse = "EXPLORATION_M"
