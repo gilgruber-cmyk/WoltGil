@@ -1,0 +1,9 @@
+[wolt_snowflake_prod]
+account = "doordash-wolt_market"
+user = "YOUR_EMAIL@wolt.com"
+authenticator = "externalbrowser"
+role = "WOLT_MARKET"
+warehouse = "EXPLORATION_M"
+client_store_temporary_credential = true
+oauth_enable_refresh_token = true
+platform_detection_timeout_seconds = 0
