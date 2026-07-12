@@ -30,6 +30,7 @@ mkdir -p "$HOME/.snowflake" "$HOME/.mcp" "$HOME/.cursor"
 echo "[3/5] Copying configuration files..."
 
 sed "s/YOUR_EMAIL@wolt.com/$EMAIL/" "$SCRIPT_DIR/connections.toml" > "$HOME/.snowflake/connections.toml"
+chmod 600 "$HOME/.snowflake/connections.toml"
 echo "  -> $HOME/.snowflake/connections.toml"
 
 cp "$SCRIPT_DIR/wolt_snowflake_prod.yaml" "$HOME/.mcp/"
