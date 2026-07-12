@@ -1,0 +1,24 @@
+other_services:
+  object_manager: false
+  query_manager: true
+  semantic_manager: false
+
+sql_statement_permissions:
+  - Select: true
+  - Describe: true
+  - Use: true
+  - Alter: false
+  - Command: false
+  - Comment: false
+  - Commit: false
+  - Copy: false
+  - Create: false
+  - Delete: false
+  - Drop: false
+  - Insert: false
+  - Merge: false
+  - Rollback: false
+  - Transaction: false
+  - TruncateTable: false
+  - Unknown: false
+  - Update: false
